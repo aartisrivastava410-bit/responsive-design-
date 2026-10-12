@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trailhead – Guided Outdoor Adventures</title>
+  <meta name="description" content="Responsive demo website for a guided outdoor adventure company.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">Trail<span>head</span></a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+      <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Why Us</a></li>
+          <li><a href="#tours">Tours</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <h1>Explore the wild, your way.</h1>
+        <p>Small-group guided hikes, treks and camping trips for every skill level.</p>
+        <a href="#tours" class="btn">Browse Tours</a>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="container">
+        <h2>Why choose Trailhead</h2>
+        <div class="grid features">
+          <article class="card">
+            <h3>Expert Guides</h3>
+            <p>Certified local guides who know every trail and every story.</p>
+          </article>
+          <article class="card">
+            <h3>Small Groups</h3>
+            <p>Maximum of 10 people so every adventure feels personal.</p>
+          </article>
+          <article class="card">
+            <h3>Eco Friendly</h3>
+            <p>Leave-no-trace practices and support for local communities.</p>
+          </article>
+          <article class="card">
+            <h3>All Gear Included</h3>
+            <p>Tents, poles and safety equipment are provided on every trip.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="tours" class="section section-alt">
+      <div class="container">
+        <h2>Popular tours</h2>
+        <div class="grid tours">
+          <figure class="tour">
+            <div class="tour-img img-mountain" role="img" aria-label="Mountain landscape"></div>
+            <figcaption>
+              <h3>Alpine Ridge Trek</h3>
+              <p>3 days · Moderate</p>
+            </figcaption>
+          </figure>
+          <figure class="tour">
+            <div class="tour-img img-forest" role="img" aria-label="Forest path"></div>
+            <figcaption>
+              <h3>Misty Forest Walk</h3>
+              <p>1 day · Easy</p>
+            </figcaption>
+          </figure>
+          <figure class="tour">
+            <div class="tour-img img-lake" role="img" aria-label="Lake at sunset"></div>
+            <figcaption>
+              <h3>Lakeside Camping</h3>
+              <p>2 days · Easy</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact">
+        <div>
+          <h2>Plan your trip</h2>
+          <p>Tell us what you have in mind and we will reply within 24 hours.</p>
+        </div>
+        <form class="contact-form" action="#" method="post">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+          <label for="msg">Message</label>
+          <textarea id="msg" name="msg" rows="4"></textarea>
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Trailhead. Built for the Week 2 Responsive Web Design task.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
